@@ -1,0 +1,76 @@
+body {
+  background-image: url("image/background.png") ;
+  height: 55vh;
+  width: 99vw;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+.play {
+    cursor: pointer;
+    border-radius: 200px;
+    background-color: lime;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    width: 125px;
+    height: 125px;
+  }
+  .button {
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .game-area {
+    cursor: none;
+  }
+  .score-display {
+    font-size: 1em;
+    font-weight: bolder;
+   }
+
+
+   /* ............... */
+   #mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #home {
+    top: 20px;
+    background-color: #182886
+  }
+  #about {
+    top: 80px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 140px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 200px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 260px;
+    background-color: #555
+  }
+  /* ............ */
+  
+ 
+ 
